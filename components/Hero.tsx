@@ -26,7 +26,7 @@ const Hero = () => {
             "absolute inset-0",
             "[background-size:22px_22px]",
             "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
-            "dark:[background-image:radial-gradient(rgba(64,64,64,1)_1px,transparent_1px)]"
+            "dark:[background-image:radial-gradient(rgba(64,64,64,0.6)_1px,transparent_1px)]"
           )}
         />
         {/* Radial gradient for the container to give a faded look */}

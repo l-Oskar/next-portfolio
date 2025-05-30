@@ -1,6 +1,6 @@
 import React from "react";
 
-const MagickButton = ({
+const MagicButton = ({
   title,
   icon,
   position,
@@ -28,4 +28,4 @@ const MagickButton = ({
   );
 };
 
-export default MagickButton;
+export default MagicButton;

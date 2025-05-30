@@ -2,11 +2,11 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { IoCopyOutline } from "react-icons/io5";
-import { GlobeDemo } from "@/components/ui/GridGlobe";
+import Globe from "@/components/ui/GridGlobe";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
-import MagickButton from "./MagickButton";
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -84,7 +84,7 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover, object-center")}
+              className={cn(imgClassName, "object-cover object-center")}
             />
           )}
         </div>
@@ -94,14 +94,12 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              className={"object-cover, object-center w-full h-full"}
+              className={"object-cover object-center w-full h-full"}
             />
           )}
         </div>
         {id === 6 && (
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
-          </BackgroundGradientAnimation>
+          <BackgroundGradientAnimation></BackgroundGradientAnimation>
         )}
         <div
           className={cn(
@@ -117,11 +115,11 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {/* {id === 2 && <GlobeDemo />} */}
+          {/* {id === 2 && <Globe />} */}
 
           {id === 3 && (
-            <div className="flex gap-2 lg:gap-3 w-fit absolute -right-1 lg:-right-1 lg:-top-1">
-              <div className="flex flex-col gap-3">
+            <div className="flex gap-2 lg:gap-4 w-fit absolute -right-1 lg:-right-1 lg:-top-1">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-7">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
@@ -130,14 +128,14 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-6 lg:px-3 py-4 px-3 rounded-lg text-center bg-[#15193b]"></span>
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-3">
-                <span className="lg:py-4 lg:px-3 py-4 px-3 rounded-lg text-center bg-[#15193b]"></span>
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-7">
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    className="lg:py-4 lg:px-3 md:py-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                     {item}
                   </span>
@@ -154,7 +152,7 @@ export const BentoGridItem = ({
                 }`}>
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
-              <MagickButton
+              <MagicButton
                 title={copied ? "Email copied" : "Copy my email"}
                 icon={<IoCopyOutline />}
                 position="left"

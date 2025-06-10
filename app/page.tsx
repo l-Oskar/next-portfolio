@@ -5,6 +5,8 @@ import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import TechStack from "@/components/TechStack";
 import Experience from "@/components/Experience";
+import Approach from "@/components/Approach";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <RecentProjects />
         <TechStack />
         <Experience />
+        <Approach />
+        <Footer />
       </div>
     </main>
   );

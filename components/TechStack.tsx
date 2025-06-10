@@ -1,4 +1,4 @@
-import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { HoverEffect } from "@/components/ui/CardHoverEffect";
 import { cards } from "@/data/index";
 
 export default function TechStack() {

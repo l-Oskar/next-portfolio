@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Tech Stack", link: "#techStack" },
+  { name: "Skills", link: "#techStack" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -152,39 +152,6 @@ export const cards = [
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
 export const workExperience = [
   {
     id: 1,
@@ -213,6 +180,27 @@ export const workExperience = [
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+  },
+];
+
+export const approach = [
+  {
+    title: "Planning & Strategy",
+    icon: "Phase 1",
+    description:
+      "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.'",
+  },
+  {
+    title: "Development & Progress Update",
+    icon: "Phase 2",
+    description:
+      "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
+  },
+  {
+    title: "Development & Launch",
+    icon: "Phase 3",
+    description:
+      "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
   },
 ];
 

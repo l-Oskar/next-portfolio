@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Tech Stack", link: "#techStack" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -104,36 +104,51 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const cards = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "HTML & CSS",
+    description:
+      "Clean, semantic markup and responsive layouts using modern CSS techniques.",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "JavaScript (ES6+)",
+    description:
+      "Interactive functionality with clean, modular JavaScript and modern ES6+ features.",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "React.js/Next.js",
+    description:
+      "Component-based architecture for building fast, scalable applications.",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Tailwind CSS",
+    description:
+      "Utility-first CSS framework for rapid UI development with consistent design.",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "Redux Toolkit",
+    description:
+      "State management for complex interfaces with minimal boilerplate and great scalability.",
+  },
+  {
+    title: "REST API Integration",
+    description:
+      "Connect and consume external data using fetch, axios, and async logic.",
+  },
+  {
+    title: "Responsive Design",
+    description:
+      "Pixel-perfect layouts across all screen sizes using mobile-first principles.",
+  },
+  {
+    title: "Git & GitHub",
+    description:
+      "Version control for collaborative development and clean deployment workflows.",
+  },
+  {
+    title: "Figma to Code",
+    description:
+      "Transform UI/UX designs into functional, accessible, and performant websites.",
   },
 ];
 

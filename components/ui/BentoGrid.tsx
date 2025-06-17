@@ -47,8 +47,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "NextJS", "Typescript"];
-  const rightLists = ["Redux", "Express", "TailwindCSS"];
+  const leftLists = ["ReactJS", "NextJS", "TypeScript"];
+  const rightLists = ["Redux", "REST API", "TailwindCSS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -115,7 +115,7 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {/* {id === 2 && <Globe />} */}
+          {id === 2 && <Globe />}
 
           {id === 3 && (
             <div className="flex gap-2 lg:gap-4 w-fit absolute -right-1 lg:-right-1 lg:-top-1">

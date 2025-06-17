@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Skills", link: "#techStack" },
-  { name: "Contact", link: "#contact" },
+  { name: "Contact", link: "#footer" },
 ];
 
 export const gridItems = [
@@ -73,35 +73,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "StarWars adaptive website",
+    des: "A website displaying character information, with options to add to favorites and change the site theme.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/sa.svg", "/js.png", "/rx.svg", "/git.svg"],
+    link: "https://l-oskar.github.io/StarWars/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "React Arrow game",
+    des: "Built a fast-paced browser game where users match random arrow keys in real time. Tracked input accuracy and included win/loss mechanics.",
+    img: "/p2.png",
+    iconLists: ["/re.svg", "/mu.svg", "/ts.svg", "/rx.svg", "/vi.svg"],
+    link: "https://l-oskar.github.io/react-arrow-game/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Portfolio adaptive website",
+    des: "Designed and developed a personal portfolio to showcase projects, skills, and experience using React, Tailwind CSS, and modern UI patterns.",
+    img: "/p3.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/ac.png", "/fm.svg"],
+    link: "#",
   },
 ];
 
@@ -157,28 +149,28 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Contributed to building a web-based platform with Astro and Strapi, collaborating with designers and backend engineers to improve UX and content flow.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Blockchain Learning Project",
+    desc: "Explored smart contract development with JavaScript and Ethers.js. Focused on key concepts like wallets, transactions, and contract interaction.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Tech Education & Courses",
+    desc: "Completed a degree in a tech-related field and additional courses in frontend development, JavaScript, and blockchain fundamentals.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Continuous Learning & Practice",
+    desc: "Actively improving skills through personal projects, open-source contributions, and self-paced learning in modern web technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -189,19 +181,19 @@ export const approach = [
     title: "Planning & Strategy",
     icon: "Phase 1",
     description:
-      "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.'",
+      "Defining goals, structure, and timeline to ensure clear expectations and a focused development process.",
   },
   {
     title: "Development & Progress Update",
     icon: "Phase 2",
     description:
-      "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
+      "Building the product step by step while keeping you updated with regular insights and iterations.",
   },
   {
     title: "Development & Launch",
     icon: "Phase 3",
     description:
-      "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
+      "Finalizing, testing, and deploying a polished product — ready to go live and create impact.",
   },
 ];
 
@@ -209,12 +201,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "#",
+    url: "https://github.com/l-Oskar",
   },
   {
     id: 2,
-    img: "/twit.svg",
-    url: "#",
+    img: "/fa.svg",
+    url: "https://facebook.com/volodymyr.fediuk.2025",
   },
   {
     id: 3,

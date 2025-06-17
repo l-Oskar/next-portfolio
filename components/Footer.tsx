@@ -17,7 +17,7 @@ const Footer = () => {
         </p>
         <a href="mailto:fediuk_v@protonmail.com">
           <MagicButton
-            title="Lets's get in touch"
+            title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 Volodymyr
+          Copyright © 2025 Fediuk Volodymyr
         </p>
 
         <div className="flex items-center md:gap-3 mt-5">

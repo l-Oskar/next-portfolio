@@ -7,7 +7,7 @@ export default function TechStack() {
       <h1 className="heading">
         Tools & Technologies <span className="text-purple">I Work With</span>
       </h1>
-      <div className="max-w-5xl mx-auto px-8">
+      <div className="max-w-5xl mx-auto px-8 bg-black-100">
         <HoverEffect items={cards} />
       </div>
     </div>

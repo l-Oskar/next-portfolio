@@ -205,7 +205,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/fa.svg",
+    img: "/fb.svg",
     url: "https://facebook.com/volodymyr.fediuk.2025",
   },
   {

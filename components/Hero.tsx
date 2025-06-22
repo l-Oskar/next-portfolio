@@ -22,14 +22,13 @@ const Hero = () => {
       <div className="flex h-screen w-full dark:bg-black-100 items-center justify-center bg-white absolute top-0 left-0">
         <div
           className={cn(
-            // "relative",
             "absolute inset-0",
             "[background-size:22px_22px]",
             "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
             "dark:[background-image:radial-gradient(rgba(64,64,64,0.6)_1px,transparent_1px)]"
           )}
         />
-        {/* Radial gradient for the container to give a faded look */}
+
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"></div>
       </div>
       <div className="flex justify-center relative my-20 z-10">
@@ -43,7 +42,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Volodymyr, a Next.js Developer
+            Hi, I&apos;m Volodymyr, a Frontend Developer
           </p>
 
           <a href="#projects">

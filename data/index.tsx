@@ -157,14 +157,14 @@ export const workExperience = [
     id: 2,
     title: "Blockchain Learning Project",
     desc: "Explored smart contract development with JavaScript and Ethers.js. Focused on key concepts like wallets, transactions, and contract interaction.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Tech Education & Courses",
     desc: "Completed a degree in a tech-related field and additional courses in frontend development, JavaScript, and blockchain fundamentals.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
